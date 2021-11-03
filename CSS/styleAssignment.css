@@ -4,7 +4,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(92, 18, 87, 0.242);
+  background-color: rgba(92, 18, 87);
 }
 
 li {
@@ -13,14 +13,15 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color:white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 11px;
   font-weight: bold;
 }
 
 li a:hover {
-  background-color: rgb(92,18,87);
+  background-color: white;
+  color:rgba(92, 18, 87);
 }
 
 
@@ -49,6 +50,10 @@ body {
   margin-right: auto;
   width: 80%;*/
 
+  
+.pull-quote {
+  font-style: italic;
+}
 .review-pic {
   display: block;
   margin-left: auto;
@@ -65,9 +70,16 @@ body {
   padding: 5px;
 }
   
-.review-head { grid-area: 1 / 1 / 2 / 2;}
-.pull-quote { grid-area: 2 / 1 / 3 / 2;}
-.review-pic { grid-area: 3 / 1 / 4 / 2;}
-.review-head2 { grid-area: 1 / 2 / 2 / 3;}
-.pull-quote2 { grid-area: 2 / 2 / 3 / 3;}
-.review-pic2 { grid-area: 3 / 2 / 4 / 3;}
+#review-head-1 { grid-area: 1 / 1 / 2 / 2;}
+#pull-quote-1 { grid-area: 2 / 1 / 3 / 2;}
+#review-pic-1 { grid-area: 3 / 1 / 4 / 2;}
+#review-head-2 { grid-area: 1 / 2 / 2 / 3;}
+#pull-quote-2 { grid-area: 2 / 2 / 3 / 3;}
+#review-pic-2 { grid-area: 3 / 2 / 4 / 3;}
+
+#BlogLink {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
