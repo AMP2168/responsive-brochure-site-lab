@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: greenyellow;
+    }
+    .pull-quote {
+        display: none;
+    }
+
+    li a {
+        display:block
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+  }

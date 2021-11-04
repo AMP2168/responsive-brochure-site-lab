@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-<!-- meta charset???-->
-<title>Contact</title>
-<link rel="stylesheet" href="CSS/styleAssignment.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- is this right??-->
+        <title>Contact</title>
+
+            <link rel="stylesheet" href="CSS/style.css">
+            <link rel="stylesheet" href="CSS/responsive.css">
     </head>
 
-    <!-- CHANNEG LINK IN HOME -->
     <body>
     <ul>
         <li><a href="Index.html">Home</a></li>
         <li><a href="About.html" target=_blank>About</a></li>
         <li><a href="http://sometimesmelbourne.blogspot.com/" target=_blank>Archive 2006–21</a></li>
-        <li><a href="contact.html" target=_blank>Review request</a></li>
+        <li><a class="active" href="contact.html" target=_blank>Review request</a></li>
         <li><a href="Review-Sites.html" target=_blank>Other review sites</a></li>
      </ul>
 
@@ -20,9 +23,11 @@
          </form>
             <form>
                 <label for="name"> Your name</label><br>
-                <input type="text" id="name" name="name" required> <br>
+                <input type="text" id="name" name="name" size="80" required> <br>
+                    <br>
                 <label for="email"> Your email</label><br>
-                <input type="email" id="email" name="email" required> <br>
+                <input type="email" id="email" name="email" size="80"required> <br>
+                <br>
                 <label for="request">What type of coverage you want</label> <br>
                 <input type="checkbox" id="request1" name="request1" value="request1">
                 <label for="request1">Review </label><br>
@@ -34,8 +39,9 @@
                 <label for="request4">Listing </label><br>
                 <input type="checkbox" id="request5" name="request5" value="request5">
                 <label for="request5">Giveaway</label> </label><br>
-                <label for="Details>">Details about your request.</label> <br>
-                <input type="text" id="details" name="details" required> <br>
+                <br>
+                <label for="Details">Details about your request.</label> <br>
+                <input type="text" id="details" name="details" width="50" height="50"  required> <br>
                 <input type="submit" value="Submit">
             </form>
     </body>
