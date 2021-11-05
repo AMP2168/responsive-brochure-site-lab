@@ -22,7 +22,7 @@
     color:rgba(92, 18, 87);
   }
   
-  .hamnav {
+  .phonenav {
     display: none;
   }
   
@@ -53,7 +53,7 @@
   }
   .pull-quote {
     font-style: italic;
-    quotes: "“" "”" "‘" "’";
+    <i class="fa fa-quote-left" aria-hidden="true"></i>
   }
  /*quotes not working*/
 

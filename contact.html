@@ -11,22 +11,24 @@
     </head>
 
     <body>
-    <ul>
-        <li><a href="Index.html">Home</a></li>
-        <li><a href="About.html" target=_blank>About</a></li>
-        <li><a href="http://sometimesmelbourne.blogspot.com/" target=_blank>Archive 2006–21</a></li>
-        <li><a class="active" href="contact.html" target=_blank>Review request</a></li>
-        <li><a href="Review-Sites.html" target=_blank>Other review sites</a></li>
-     </ul>
+        <nav class="topnav">
+            <ul>
+                <li><a class="active" href="Index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+                <li><a href="About.html" target=_blank></i>About</a></li>
+                <li><a href="http://sometimesmelbourne.blogspot.com/" target=_blank></i>Archive 2006–21</a></li>
+                <li><a href="contact.html" target=_blank></i>Review request</a></li>
+                <li><a href="Review-Sites.html" target=_blank></i>Review sites</a></li>
+            </ul>
+        </nav>
 
         <h1>Coverage request</h1>
          </form>
             <form>
                 <label for="name"> Your name</label><br>
-                <input type="text" id="name" name="name" size="80" required> <br>
+                <input type="text" id="name" name="name" size="80" required style="max-width: 50%"> <br>
                     <br>
                 <label for="email"> Your email</label><br>
-                <input type="email" id="email" name="email" size="80"required> <br>
+                <input type="email" id="email" name="email" size="80"required style="max-width: 50%"> <br>
                 <br>
                 <label for="request">What type of coverage you want</label> <br>
                 <input type="checkbox" id="request1" name="request1" value="request1">
@@ -41,7 +43,7 @@
                 <label for="request5">Giveaway</label> </label><br>
                 <br>
                 <label for="Details">Details about your request.</label> <br>
-                <input type="text" id="details" name="details" rows="10" cols="30" required> <br>
+                <textarea id="details" name="details" rows="10" cols="30" required></textarea><br>
                 <br>
                 <input type="submit" value="Submit">
             </form>
