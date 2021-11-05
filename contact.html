@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- is this right??-->
-        <title>Contact</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <link rel="stylesheet" href="CSS/style.css">
-            <link rel="stylesheet" href="CSS/responsive.css">
-    </head>
+    <title>Sometimes Melbourne reviews</title>
+    <!-- CSS stylesheet goes here <link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <body>
-        <nav class="topnav">
-            <ul>
-                <li><a class="active" href="Index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
-                <li><a href="About.html" target=_blank></i>About</a></li>
-                <li><a href="http://sometimesmelbourne.blogspot.com/" target=_blank></i>Archive 2006–21</a></li>
-                <li><a href="contact.html" target=_blank></i>Review request</a></li>
-                <li><a href="Review-Sites.html" target=_blank></i>Review sites</a></li>
-            </ul>
-        </nav>
+</head>
+    
+<body>
+
+    <nav class="topnav">
+        <ul>
+            <li><a class="active" href="Index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
+            <li><a href="About.html"><i class="fa fa-star"></i> About</a></li>
+            <li><a href="http://sometimesmelbourne.blogspot.com/" target=_blank><i class="fa fa-archive"></i> Archive</a><li>
+            <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Review request</a></li>
+            <li><a href="Review-Sites.html"><i class="fa fa-balance-scale"></i> Review sites</a></li>
+        </ul>
+    </nav>
+         
+ 
+   <nav class="phonenav"> 
+        <div >
+            <a class="active" href="Index.html"><i class="fa fa-fw fa-home"></i></a> |
+            <a href="About.html"><i class="fa fa-star"></i></a> |
+            <a href="http://sometimesmelbourne.blogspot.com/" target=_blank><i class="fa fa-archive"></i> </a> |
+            <a href="contact.html"><i class="fa fa-fw fa-envelope"></i></a> |
+            <a href="Review-Sites.html"><i class="fa fa-balance-scale"></i></a>
+        </div>
+    </nav>
 
         <h1>Coverage request</h1>
-         </form>
+        
             <form>
-                <label for="name"> Your name</label><br>
+                <label for="name">Your name</label><br>
                 <input type="text" id="name" name="name" size="80" required style="max-width: 50%"> <br>
                     <br>
-                <label for="email"> Your email</label><br>
-                <input type="email" id="email" name="email" size="80"required style="max-width: 50%"> <br>
+                <label for="email">Your email</label><br>
+                <input type="email" id="email" name="email" size="80" required style="max-width: 50%"> <br>
                 <br>
-                <label for="request">What type of coverage you want</label> <br>
+                Coverage request<br>
                 <input type="checkbox" id="request1" name="request1" value="request1">
                 <label for="request1">Review </label><br>
                 <input type="checkbox" id="request2" name="request2" value="request2">
@@ -40,9 +54,9 @@
                 <input type="checkbox" id="request4" name="request4" value="request4">
                 <label for="request4">Listing </label><br>
                 <input type="checkbox" id="request5" name="request5" value="request5">
-                <label for="request5">Giveaway</label> </label><br>
+                <label for="request5">Giveaway</label> <br>
                 <br>
-                <label for="Details">Details about your request.</label> <br>
+                <label for="details">Details about your request.</label> <br>
                 <textarea id="details" name="details" rows="10" cols="30" required></textarea><br>
                 <br>
                 <input type="submit" value="Submit">
